@@ -36,5 +36,18 @@ class MainActivity : AppCompatActivity() {
 //            etNome.text.clear()
 //            tvNome.text = "Mensagem de Placeholder"
 //        }
+
+        /*
+        Desafio
+
+        1. Criar uma nova Activity
+        2. Adicionar um elemento de visualização de texto para exibição do resultado
+        3. Adicionar dois elementos de edição de texto, um para o nome e outro para a idade
+        4. Adicionar dois botões, um para enviar e outro para limpar
+        5. Quando clicar no botão enviar, fazer uma validação se todos os campos foram digitados
+        6. Se a validação passar, atualizar o elemento de visualização de texto para: "Olá NOME, você tem IDADE anos."
+        7. Caso não passe, atualizar o elemento de edição de texto problemático com uma mensagem de erro
+        8. Ao clicar no botão limpar, limpa todos os itens do formulário
+        */
     }
 }
